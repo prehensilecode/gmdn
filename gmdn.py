@@ -5,7 +5,7 @@ import numpy as np
 import mpmath as mp
 
 def arith(nums):
-    return np.sum(foo)/foo.size
+    return np.sum(nums)/nums.size
 
 def root(x, y):
     return x ** (1./y)
